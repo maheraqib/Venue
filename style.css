@@ -572,3 +572,157 @@ iframe {
   cursor: pointer;
   transition: all 0.5s;
 }
+
+/* footer start here */
+
+#footer {
+  padding: 50px 40px;
+  border-top: #c7c3c3 1px solid;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px 20px;
+}
+
+.about-venue {
+  padding: 40px 0 0 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .logo img {
+  width: 160px;
+  height: 34px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#footer ul li {
+  padding: 10px 0;
+}
+
+.social-icons li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+#footer ul li a:hover {
+  color: #4883ff;
+  transition: all 0.5s;
+}
+
+.col-md-6 ul li i {
+  font-size: 10px;
+  color: #4883ff;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.useful-links {
+  padding: 40px 0 0 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.useful-links h4 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.useful-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.useful-links ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.useful-links ul li a:hover {
+  color: #4883ff;
+  transition: all 0.5s;
+}
+
+.contact-info {
+  padding: 40px 0 0 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info h4 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info ul li {
+  margin: 10px 0 10px 0;
+}
+
+.contact-info ul li i{
+  display: flex;
+  align-items: center;  
+}
+
+.contact-info ul li span {
+  padding-right: 40px;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #4883ff;
+}
+
+.contact-info ul li a:hover {
+  color: #4883ff;
+  transition: all 0.5s;
+}
+
+/* footer end here */
+
+/* copyright section start here */
+
+#copyright {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
