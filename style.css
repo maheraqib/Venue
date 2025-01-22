@@ -16,6 +16,12 @@
   flex-direction: row;
 }
 
+#menu {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -24,8 +30,8 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-
 }
+
 
 .logo {
   display: flex;
@@ -387,7 +393,7 @@ textarea:focus, input:focus{
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 .Services-item {
@@ -418,4 +424,151 @@ textarea:focus, input:focus{
   color: #7a7a7a;
   line-height: 24px;
   left: 0.25px;
+}
+
+/* Services section end here */
+
+/*pricing tables start here */
+
+#pricing-tables {
+  padding: 80px 40px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;  
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.table-item {
+  width: 370px;
+  padding-bottom: 30px;
+  background-color: #eeeeee;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .table-item {
+    width: 300px;
+    flex-direction: row;
+  }
+  
+}
+
+.table-item .top-content {
+  background-color: #4883ff;
+  padding: 20px 20px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.table-item .top-content h4 {
+  padding: 10px 0;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.table-item .top-content h1 {
+  padding: 10px 0;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+
+.table-item .top-content span {
+  padding: 10px 0;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+
+.table-item ul {
+  list-style: none;
+  padding: 40px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.table-item ul li {
+  text-decoration: none;
+  color: #7a7a7a;
+  margin: 25px 0;
+  font-size: 15px;
+}
+
+.table-item ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.table-item ul li a:hover {
+  color: #4883ff;
+  transition: all 0.5s;
+}
+
+.blue-button {
+  padding-bottom: 20px;
+}
+
+.blue-button a{
+  padding: 20px 25px;
+  background-color: #4883ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.blue-button a:hover {
+  background-color: white;
+  color: #4883ff;
+  border: #007bff 1px solid;
+  transition: all 0.5s;
+}
+
+/*pricing tables end here */
+
+/* map section start here */
+
+iframe {
+  padding: 40px 0;
+  width: 100%;
+}
+
+/* map section end here */
+
+.wrapper {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.wrapper h2 {
+  padding: 20px 0 25px 0;
+}
+.modal-btn {
+  padding: 15px 25px;
+  background-color: #4883ff;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #4883ff;
+}
+
+.modal-btn:hover {
+  background-color: white;
+  color: #4883ff;
+  border: #007bff 1px solid;
+  cursor: pointer;
+  transition: all 0.5s;
 }
